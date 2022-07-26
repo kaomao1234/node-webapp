@@ -36,7 +36,6 @@ app.post('/', function(req, res) {
    }
   res.json(result);
 });
-
 app.get('/release', (req, res) =>{
    res.status(400).send("error aria?");
 });
